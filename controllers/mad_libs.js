@@ -154,19 +154,15 @@ router.post('/', function(req, res) {
           if(err) {
             console.log(err);
           } else {
-            // res.send(product);
+            res.redirect("/mad-libs");
             console.log(req.body);
             console.log(req.body.title);
             console.log(req.body._id);
-            
           }
         });
-        console.log(req.body._id);
       });
     });
   });
-  console.log("is this the id: " + req.body._id);
-  res.redirect("/mad-libs");
 });
 
 // // Create

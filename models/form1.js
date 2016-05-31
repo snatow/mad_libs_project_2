@@ -35,7 +35,8 @@ var form1Schema = new mongoose.Schema({
   image1: String,
   image2: String,
   image3: String,
-  image4: String
+  image4: String,
+  date_stamp: { type: Date, default: Date.now }
 });
 
 // Map it through Mongoose
