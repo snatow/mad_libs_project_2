@@ -15,6 +15,10 @@ h2 {
   font-size: 36pt;
 }
 
+p {
+  margin-left: 20px;
+}
+
 footer {
   margin-top: 20px;
   height: 80px;

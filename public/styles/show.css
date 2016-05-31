@@ -18,6 +18,10 @@ h3 {
   font-size: 24pt;
 }
 
+p {
+  margin-left: 20px;
+}
+
 footer {
   margin-top: 20px;
   background-color: lightblue;

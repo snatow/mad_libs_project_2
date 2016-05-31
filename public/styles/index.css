@@ -19,6 +19,10 @@ h3 {
   font-size: 24pt;
 }
 
+p {
+  margin-left: 20px;
+}
+
 a {
   text-decoration: none;
   color: blue;

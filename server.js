@@ -68,6 +68,9 @@ mongoose.connect(db);
 var madLibsController = require("./controllers/mad_libs.js");
 app.use('/mad-libs', madLibsController);
 
+// var pirateController = require("./controllers/pirate.js");
+// app.use('/pirate', pirateController);
+
 
 
 //=========================
