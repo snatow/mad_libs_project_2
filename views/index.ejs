@@ -31,13 +31,13 @@
   <h3>Previously Created Mad Libs</h3>
   <% for(var i=0;i<data.length;i++) { %>
     <% if (data[i].title == "pirate") { %>
-      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/pirate/<%= data[i]._id %>" >Talk Like a Pirate</a></li>
+      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/pirate/<%= data[i]._id %>" >Talk Like a Pirate</a> &nbsp; <%= data[i].date_stamp.getMonth() %>/<%= data[i].date_stamp.getDate() %>/<%= data[i].date_stamp.getFullYear() %>, <%= data[i].date_stamp.getHours() %>:<%= data[i].date_stamp.getMinutes() %></li>
     <% } else if (data[i].title == "date") { %>
-      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/date/<%= data[i]._id %>" >How to Date The Coolest Guy/Girl in School</a></li>
+      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/date/<%= data[i]._id %>" >How to Date The Coolest Guy/Girl in School</a> &nbsp; <%= data[i].date_stamp.getMonth() %>/<%= data[i].date_stamp.getDate() %>/<%= data[i].date_stamp.getFullYear() %>, <%= data[i].date_stamp.getHours() %>:<%= data[i].date_stamp.getMinutes() %></li>
     <% } else if (data[i].title == "study") { %>
-      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/study/<%= data[i]._id %>" >How to Study</a></li>
+      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/study/<%= data[i]._id %>" >How to Study</a> &nbsp; <%= data[i].date_stamp.getMonth() %>/<%= data[i].date_stamp.getDate() %>/<%= data[i].date_stamp.getFullYear() %>, <%= data[i].date_stamp.getHours() %>:<%= data[i].date_stamp.getMinutes() %></li>
     <% } else if (data[i].title == "dentist") { %>
-      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/dentist/<%= data[i]._id %>" >A Visit to the Dentist</a></li>
+      <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/mad-libs/dentist/<%= data[i]._id %>" >A Visit to the Dentist</a> &nbsp; <%= data[i].date_stamp.getMonth() %>/<%= data[i].date_stamp.getDate() %>/<%= data[i].date_stamp.getFullYear() %>, <%= data[i].date_stamp.getHours() %>:<%= data[i].date_stamp.getMinutes() %></li>
     <% } %>
   <% } %>
   </div>

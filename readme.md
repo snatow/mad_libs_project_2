@@ -14,5 +14,5 @@ Mad Libs is a template word game where one player prompts others for a list of w
 
 ### Features
 - Users are given a choice of four different mad libs from which they can choose by clicking on their titles
-- Once clicked, these links will route the User to a form with inputs for all of the missing words labeled with their parts of speech. Once the form is completed, the user will click the Submit button to add their version of the mad lib to the database. This will bring the user to the show page for this newly created mad lib.
+- Once clicked, these links will route the User to a form with inputs for all of the missing words labeled with their parts of speech. Once the form is completed, the user will click the Submit button to add their version of the mad lib to the database. This will bring the user to the index page - they will be able to find their newly created mad lib in the list of Previously Created Mad Libs by title, time and date.
 - Users can view previously created and saved mad libs from the index page of the app, edit those mad libs from their show pages and save those edits, and delete them from the database on the individual page's edit page. 
