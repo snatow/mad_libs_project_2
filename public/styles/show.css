@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 36pt;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 24pt;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: lightblue;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16pt;
+}
+
+a:hover {
+  color: red;
+}
+
+.photo-holder1 {
+  width: 400px;
+  margin: 0 auto;
+  height: 133px;
+  background-color: lightgrey;
+  background-image: linear-gradient(grey, lightgrey);
+}
+
+.photo-holder2 {
+  width: 400px;
+  margin: 0 auto;
+  height: 133px;
+  background-color: lightgrey;
+  background-image: linear-gradient(lightgrey, grey);
+}
+
+.photono {
+  width: 0;
+  height: 0
+  margin-left: -5px;
+  margin-right: -5px;
+  display: inline-block;
+}
+
+.photo {
+  width: 200px;
+  height: 133px;
+  margin-left: -5px;
+  margin-right: -5px;
+  display: inline-block;
+}
+
+.photo-right {
+  width: 200px;
+  height: 133px;
+  margin-left: 9px;
+  margin-right: -5px;
+  display: inline-block;
+  text-align: right;
+}
+
+#text {
+  width: 375px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16pt;
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+}
+
+img {
+  max-width: 200px;
+  max-height: 133px;
+}
+
+#edit {
+  margin-left: 300px;
+  padding-bottom: 20px;
+}
+
+#link {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@keyframes slide {
+  0% {transform: translateX(-200px);}
+  100% {transform: translateX(0px);}
+}
+
+@media (min-width: 820px) {
+
+  .photono {
+    /*background-color: lightgrey;*/
+    width: 200px;
+    height: 133px;
+    margin-left: 0px;
+    margin-right: -5px;
+    display: inline-block;
+  }
+
+  .photo-holder1 {
+    width: 800px;
+    margin: 0 auto;
+    height: 133px;
+    background-color: lightgrey;
+    background-image: linear-gradient(grey, lightgrey);
+  }
+
+  .photo-holder2 {
+    width: 800px;
+    margin: 0 auto;
+    height: 133px;
+    background-color: lightgrey;
+    background-image: linear-gradient(lightgrey, grey);
+  }
+
+  #text {
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+  }
+
+  #edit {
+    margin-left: 670px;
+  }
+
+}
+

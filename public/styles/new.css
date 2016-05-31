@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/paper.jpg");
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 36pt;
+}
+
+footer {
+  margin-top: 20px;
+  height: 80px;
+  float: bottom;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16pt;
+}
+
+input {
+  height: 1.5em;
+}
+
+button:hover {
+  background-color: green;
+}
+
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16pt;
+}
+
+a:hover {
+  color: red;
+}
+
+#link {
+  text-align: center;
+}
+
+#delete {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#action {
+  padding-top: 15px;
+}
+
+@media (min-width: 700px) {
+
+  form {
+    padding-top: 15px;
+    width: 700px;
+  }
+
+  #left {
+    margin-left: 70px;
+  }
+
+  .column {
+    display: inline-block;
+    float: left;
+    width: 300px;
+  }
+  footer {
+    clear: both;
+  }
+}
