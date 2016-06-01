@@ -68,8 +68,17 @@ mongoose.connect(db);
 var madLibsController = require("./controllers/mad_libs.js");
 app.use('/mad-libs', madLibsController);
 
-// var pirateController = require("./controllers/pirate.js");
-// app.use('/pirate', pirateController);
+var pirateController = require("./controllers/pirate.js");
+app.use('/pirate', pirateController);
+
+var studyController = require("./controllers/study.js");
+app.use('/study', studyController);
+
+var dateController = require("./controllers/date.js");
+app.use('/date', dateController);
+
+var dentistController = require("./controllers/dentist.js");
+app.use('/dentist', dentistController);
 
 
 

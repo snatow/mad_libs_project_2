@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../styles/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Libs with Pictures</title>
+</head>
+<body>
+  <h2>Start a New Mad Lib</h2>
+  <div id="options">
+    <div class="opt">
+      <a href="/pirate/new">Talk Like a Pirate</a>
+    </div>
+  </div>
+  
+  <hr>
+  <div id="existing">
+  <h3>Previously Created Mad Libs</h3>
+  <% for(var i=0;i<data.length;i++) { %>
+    <% if (data[i].title == "pirate") { %>
+    <li><img class="icon" src="http://bestwindows8apps.s3.amazonaws.com/icons/Icon.266738.png"><a href="/pirate/<%= data[i]._id %>"><%= data[i].date_stamp.getMonth() %>/<%= data[i].date_stamp.getDate() %>/<%= data[i].date_stamp.getFullYear() %>, <%= data[i].date_stamp.getHours() %>:<%= data[i].date_stamp.getMinutes() %></a></li>
+  <% } %>
+  </div>
+  <br>
+  <% include ../partials/footer.ejs %>
+</body>
+</html>
